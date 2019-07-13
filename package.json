@@ -1,0 +1,35 @@
+{
+  "name": "web-api-project",
+  "version": "1.0.0",
+  "description": "Assignment project",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieltws0/Web-API-Project.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Daniel Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieltws0/Web-API-Project/issues"
+  },
+  "homepage": "https://github.com/danieltws0/Web-API-Project#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "body": "^5.1.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "parser": "^0.1.4",
+    "pg": "^7.11.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
