@@ -26,7 +26,7 @@ app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}!!!`);
 });
 
-db.query('SELECT NOW()', (err, res) => {
+db.query('SELECT NOW()', (err, res) => { //Connection to postgrestql db message
     if (err.error)
       return console.log(err.error);
     console.log(`PostgreSQL connected: ${res[0].now}.`);

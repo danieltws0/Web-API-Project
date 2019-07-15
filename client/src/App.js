@@ -37,7 +37,7 @@ class App extends Component {
     });
   };
 
-  handleInputChange = (e) => {
+  handleInputChange = (e) => {//string value update in textbox
     this.setState({ newCityName: e.target.value });
   };
 
@@ -68,7 +68,8 @@ class App extends Component {
     this.getWeather(e.target.value);
   }
 
-  componentDidMount () {
+//Life cycle method
+  componentDidMount () {//to fetch data and intialize state
     this.getCityList();
   }
 
